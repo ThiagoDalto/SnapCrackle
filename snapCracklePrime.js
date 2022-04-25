@@ -1,6 +1,6 @@
 
 
-function snapCrackle(maxValue){
+function SnapCracklePrime(maxValue){
     let snapCrackleArray = []
     
         for(let i = 1; i <= maxValue; i++){
@@ -39,4 +39,6 @@ function snapCrackle(maxValue){
             return num > 1
         
     }
+
+    console.log(SnapCracklePrime(15))
     
